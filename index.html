@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" width=1280 height=720 style="width: 1280px; height: 720px; background: #231F20"></canvas>
-    <script src="Build/Web Builds.loader.js"></script>
+    <script src="Build/Ball-Game.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/Web Builds.data.unityweb",
-        frameworkUrl: "Build/Web Builds.framework.js.unityweb",
-        codeUrl: "Build/Web Builds.wasm.unityweb",
+        dataUrl: "Build/Ball-Game.data.unityweb",
+        frameworkUrl: "Build/Ball-Game.framework.js.unityweb",
+        codeUrl: "Build/Ball-Game.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "Roll-a-Ball",
